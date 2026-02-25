@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Margin vc Padding</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        /* HEADER  */
+        header {
+            background-color: #ff6b6b;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        main {
+            background: #4dabf7;
+            padding: 20px;
+        }
+
+        .caixa {
+            background: #ffd43b;
+            padding: 30px;
+            margin: 30px;
+            border: 4px solid #333;
+        }
+        
+        footer{
+            background: #51cf66;
+            padding: 20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        Header
+    </header>
+
+    <main>
+        <div class="caixa">
+            DIV (conteúdo)
+            <br><br>
+            Padding = espaço DENTRO (amerelo)
+            <br>
+            Margin = espaço  FORA (distância até o azul)
+        </div>
+    </main>
+
+    <footer>
+        FOOTER
+    </footer>
+</body>
+</html>
